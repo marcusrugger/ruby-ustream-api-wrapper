@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ruby/ustream/api/wrapper/version'
+require 'ruby-ustream-api-wrapper/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ruby-ustream-api-wrapper"
-  spec.version       = Ruby::Ustream::Api::Wrapper::VERSION
+  spec.version       = RubyUstreamApiWrapper::VERSION
   spec.authors       = ["Marcus Rugger"]
   spec.email         = ["marcusrugger@yahoo.com"]
   spec.description   = %q{TODO: Write a gem description}
